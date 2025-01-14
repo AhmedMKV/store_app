@@ -21,6 +21,8 @@ class MyApp extends StatelessWidget {
         MainScreen.mainScreenId: (context) => MainScreen(),
         AddProductScreen.addScreenId: (context) => AddProductScreen()
       },
+
+
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
       home: MainScreen(),
